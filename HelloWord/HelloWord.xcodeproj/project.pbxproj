@@ -14,6 +14,7 @@
 		4F0EF8401C5D3D4D0045EBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0EF83E1C5D3D4D0045EBBE /* LaunchScreen.storyboard */; };
 		4F0EF84B1C5D3D4D0045EBBE /* HelloWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EF84A1C5D3D4D0045EBBE /* HelloWordTests.swift */; };
 		4F0EF8561C5D3D4E0045EBBE /* HelloWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EF8551C5D3D4E0045EBBE /* HelloWordUITests.swift */; };
+		4F0EF8641C5D409E0045EBBE /* SayHi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EF8631C5D409E0045EBBE /* SayHi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4F0EF8511C5D3D4E0045EBBE /* HelloWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0EF8551C5D3D4E0045EBBE /* HelloWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWordUITests.swift; sourceTree = "<group>"; };
 		4F0EF8571C5D3D4E0045EBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0EF8631C5D409E0045EBBE /* SayHi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayHi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4F0EF8351C5D3D4D0045EBBE /* AppDelegate.swift */,
 				4F0EF8371C5D3D4D0045EBBE /* ViewController.swift */,
+				4F0EF8631C5D409E0045EBBE /* SayHi.swift */,
 				4F0EF8391C5D3D4D0045EBBE /* Main.storyboard */,
 				4F0EF83C1C5D3D4D0045EBBE /* Assets.xcassets */,
 				4F0EF83E1C5D3D4D0045EBBE /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0EF8381C5D3D4D0045EBBE /* ViewController.swift in Sources */,
+				4F0EF8641C5D409E0045EBBE /* SayHi.swift in Sources */,
 				4F0EF8361C5D3D4D0045EBBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

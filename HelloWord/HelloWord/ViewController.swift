@@ -14,7 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //第一个swift项目
-        print("Hello,This is my first Swift project! I like Swift!");
+//        print("Hello,This is my first Swift project! I like Swift!");
+        let str : String = sayHi("pankx");
+        print(str);
     }
 
     override func didReceiveMemoryWarning() {
